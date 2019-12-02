@@ -7,7 +7,7 @@ public class FuelRequirement {
     }
 
     public static void task1() throws FileNotFoundException {
-        File file = new File("../../../Input/input.txt");
+        File file = new File("../resources/input/input.txt");
 
         BufferedReader br = new BufferedReader(new FileReader(file));
 
